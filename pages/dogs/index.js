@@ -11,7 +11,7 @@ function RandomDogImage() {
       setLoading(true);
       try {
         // Fetch from the api
-        const response = await fetch("https://dogiweifwoeefjei.ceo/api/breeds/image/random");
+        const response = await fetch("https://dog.ceo/api/breeds/image/random");
         // If the response is not correct
         if (!response.ok) {
           // throw an error
